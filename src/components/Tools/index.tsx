@@ -1,21 +1,24 @@
+import styles from './Tools.module.css'
+
 const Tools = () => {
   const lenguajes = [
-    "python",
-    "html",
-    "css",
-    "js",
-    "react",
-    "bootstrap",
-    "tailwind",
-    "django",
-    "git",
-    "github",
+    "Python + Django",
+    "React + Next.js",
+    "HTML, CSS, JS, TS, SASS",
+    "Bootstrap",
+    "GIT y Github",
+    "Docker"
   ];
 
   return (
-    <div className="">
-      <h1 className="">Lenguajes y Herramientas</h1>
-    </div>
+    <>
+        <h1 className="text-center my-4">Lenguajes y Herramientas</h1>
+        <div className="text-center">
+            {lenguajes.map((lenguaje) => (
+                <p className={styles.item} key={lenguaje}>{lenguaje}</p>
+            ))}
+        </div>
+    </>
   );
 };
 
