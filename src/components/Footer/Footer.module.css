@@ -1,0 +1,12 @@
+.container {
+    background-color: coral;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
