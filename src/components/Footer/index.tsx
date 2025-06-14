@@ -5,9 +5,9 @@ const Footer = () => {
     const items = ['¡Espero que te haya gustado!', 'Desarrollado con React + Bootstrap', '© 2025 - Carlos Chacón'];
     
     return (
-        <div className={styles.container}>
+        <footer className={`text-center ${styles.container}`}>
             <List items={items} />
-        </div>
+        </footer>
     );
 }
 
