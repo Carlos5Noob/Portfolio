@@ -1,10 +1,11 @@
 import Layout from "./components/Layout";
+import About from "./components/About";
 
 const App = () => {
   return (
     <>
       <Layout>
-        <h1>Hola mundo</h1>
+        <About />
       </Layout>
     </>
   );

@@ -1,0 +1,31 @@
+.container {
+    border: 3px solid tomato;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: none;
+    border-top: none;
+}
+
+.title {
+    font-size: 3rem;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    width: auto;
+}
+
+.image {
+    border-radius: 1000px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
