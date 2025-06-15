@@ -12,7 +12,7 @@ const Tools = () => {
 
   return (
     <>
-        <h1 className="text-center my-4">Lenguajes y Herramientas</h1>
+        <h1 id='Lenguajes y Herramientas' className={`text-center my-4 ${styles.title}`}>Lenguajes y Herramientas</h1>
         <div className="text-center">
             {lenguajes.map((lenguaje) => (
                 <p className={styles.item} key={lenguaje}>{lenguaje}</p>

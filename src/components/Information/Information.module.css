@@ -1,0 +1,19 @@
+.title {
+    font-weight: bold;
+}
+
+.imagen {
+    float: right;
+}
+
+.text {
+    max-width: 70rem;
+    font-size: 20pt;
+}
+
+.container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}

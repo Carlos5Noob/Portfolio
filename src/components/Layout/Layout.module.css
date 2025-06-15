@@ -2,6 +2,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
+  gap: 5rem;
 }
