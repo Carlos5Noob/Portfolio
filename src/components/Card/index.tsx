@@ -1,4 +1,5 @@
 import Image from "../Image";
+import styles from './Card.module.css'
 
 type CardProps = {
     src: string;
@@ -6,13 +7,14 @@ type CardProps = {
     text: string;
     href: string;
     alt?: string;
+    className?: string;
 }
 
 const Card = (props: CardProps) => {
-    const { href, src, title, text, alt } = props;
+    const { href, src, title, text, alt, className } = props;
     
     return (
-        <div className="card" style={{width: "50rem"}}>
+        <div className={`card ${styles.container} ${className}`}>
             <Image src={src} className="card-img-top" alt={alt}/>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>

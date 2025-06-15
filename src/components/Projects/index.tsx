@@ -9,12 +9,14 @@ const Projects = () => {
       <h1 id="Proyectos" className={`text-center my-4 mt-5 ${styles.title}`}>Mis Proyectos</h1>
       <div className="container d-flex justify-content-center gap-5 mb-5">
         <Card
+          className={styles.card}
           src={critikon}
           href="https://github.com/Carlos5Noob/Critikon-project.git"
           title="Critikon"
           text="Aplicación web pensada para gamers, quienes pueden discutir entre diversos videojuegos. Desarrollado con Python + Django."
         />
         <Card
+          className={styles.card}
           src={tierramedia}
           href="https://github.com/Carlos5Noob/TierraMedia-Django.git"
           title="Tierra Media"

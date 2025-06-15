@@ -8,3 +8,11 @@
     box-shadow: 5px 5px 55px grey;
     z-index: 1000;
 }
+
+.item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}

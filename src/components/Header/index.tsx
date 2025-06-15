@@ -18,7 +18,7 @@ const Header = () => {
           </a>
          
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <List items={items} gap={5} />
+            <List items={items} gap={5} className={styles.item}/>
           </div>
         </div>
       </nav>
