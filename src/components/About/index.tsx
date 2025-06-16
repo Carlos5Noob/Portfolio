@@ -2,13 +2,27 @@ import Image from "../Image";
 import foto from "../../assets/foto-perfil.png";
 import styles from "./About.module.css";
 import Button from "../Button";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   const linkGithub = "https://github.com/Carlos5Noob";
   const linkContactame = "mailto:carlosjr5noob5@gmail.com";
 
+  useEffect(() => {
+    const tl = gsap.timeline({ 
+      scrollTrigger: { scrub: 1 }
+    });
+
+    tl
+      .to("#About", { opacity: 0, scale: 0.5, duration: 0.1 });
+  }, []);
+
   return (
-    <div>
+    <div id="About" className={styles.main}>
       <h1 className={`text-center ${styles.title}`}>Hey, soy Carlos5Noob</h1>
       <div
         className={`container d-flex align-items-center gap-4 mb-5 ${styles.container}`}
