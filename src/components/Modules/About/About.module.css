@@ -28,10 +28,48 @@
     overflow: hidden;
 }
 
+.imagen {
+    animation: fade 2s ease-out;
+}
+
+.button1 {
+    animation: jump 1.5s ease-in-out;
+}
+
+.button2 {
+    animation: jump 1.5s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+
 @keyframes typing {
     from { width: 0;}
 }
 
 @keyframes blink {
     50% { border-color: transparent;}
+}
+
+@keyframes fade {
+    from { 
+        transform: translateY(-500px); 
+        opacity: 0;
+    }
+
+    to { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes jump {
+    from {
+        transform: translateY(80px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

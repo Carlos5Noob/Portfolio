@@ -27,7 +27,7 @@ const About = () => {
       <div
         className={`container d-flex align-items-center gap-4 mb-5 ${styles.container}`}
       >
-        <Image src={foto} width={300} height={300} className="rounded-circle" />
+        <Image src={foto} width={300} height={300} className={`rounded-circle ${styles.imagen}`} />
         <div className="d-flex flex-column">
           <p className="fs-3 text-white">
             Hola, me llamo Carlos Chacón Atienza y soy desarrollador Full-Stack.
@@ -35,10 +35,10 @@ const About = () => {
             la tecnología y de la programación.
           </p>
           <div className="d-flex gap-4 justify-content-end">
-            <Button href={linkContactame}>
+            <Button href={linkContactame} className={styles.button1}>
               Contáctame
             </Button>
-            <Button href={linkGithub}>
+            <Button href={linkGithub} className={styles.button2}>
               Visita mi GitHub
             </Button>
           </div>
