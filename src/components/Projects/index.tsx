@@ -6,7 +6,7 @@ import styles from './Projects.module.css'
 const Projects = () => {
   return (
     <>
-      <h1 id="Proyectos" className={`text-center my-4 mt-5 ${styles.title}`}>Mis Proyectos</h1>
+      <h1 id="Proyectos" className={`text-center my-4 mt-5 ${styles.title}`}>&lt; Mis Proyectos /&gt;</h1>
       <div className="container d-flex justify-content-center gap-5 mb-5">
         <Card
           className={styles.card}

@@ -29,7 +29,7 @@ const About = () => {
       >
         <Image src={foto} width={300} height={300} className="rounded-circle" />
         <div className="d-flex flex-column">
-          <p className="fs-3">
+          <p className="fs-3 text-white">
             Hola, me llamo Carlos Chacón Atienza y soy desarrollador Full-Stack.
             Me gusta aprender cosas nuevas y trabajar en equipo. Apasionado de
             la tecnología y de la programación.

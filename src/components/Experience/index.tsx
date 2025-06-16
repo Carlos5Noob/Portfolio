@@ -3,8 +3,8 @@ import styles from './Experience.module.css'
 const Experience = () => {
     return (
         <>
-            <h1 id='Experiencia laboral' className={`text-center my-4 ${styles.title}`}>Experiencia</h1>
-            <div className="text-center">
+            <h1 id='Experiencia laboral' className={`text-center my-4 ${styles.title}`}>&lt; Experiencia /&gt;</h1>
+            <div className="text-center text-light">
                 <section>
                     <h3>1. DAW - Curso de Desarrollo de aplicaciones Web</h3>
                     <p>2023 - 2025</p>

@@ -1,5 +1,6 @@
 .title {
     font-weight: bold;
+    color: #00bbff;
 }
 
 .imagen {
@@ -9,6 +10,7 @@
 .text {
     max-width: 70rem;
     font-size: 20pt;
+    color: white;
 }
 
 .information {

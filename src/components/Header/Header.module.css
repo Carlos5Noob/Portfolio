@@ -1,11 +1,21 @@
 .container {
-    background-color: antiquewhite;
+    background-color: #090E1B;
     font-size: 20px;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 1%;
-    box-shadow: 5px 5px 55px grey;
+    z-index: 1000;
+}
+
+.containerScroll {
+    background-color: #090E1B;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1%;
+    box-shadow: 5px 1px 5px #343e80;
     z-index: 1000;
 }
 

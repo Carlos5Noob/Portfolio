@@ -9,7 +9,7 @@ const List = ({ items, gap, className }: ListProps) => {
     <ul className={`navbar-nav gap-${gap}`}>
       {items.map((item) => (
         <li key={item} className={`nav-item ${className}`}>
-          <a className="nav-link active" aria-current="page" href={`#${item}`}>
+          <a className="nav-link active text-light" aria-current="page" href={`#${item}`}>
             {item}
           </a>
         </li>
