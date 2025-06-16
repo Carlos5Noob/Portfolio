@@ -1,5 +1,5 @@
 import styles from './Footer.module.css'
-import List from '../List';
+import List from '../../Utils/List';
 
 const Footer = () => {
     const items = ['¡Espero que te haya gustado!', 'Desarrollado con React + Bootstrap + Gsap', '© 2025 - Carlos Chacón'];

@@ -1,11 +1,11 @@
 import styles from './Tools.module.css'
-import Icon from '../Icon';
-import bootstrap from '../../assets/bootstrap.png';
-import docker from '../../assets/docker.png';
-import django from '../../assets/django.png';
-import git from '../../assets/git.png';
-import html from '../../assets/html.png';
-import react from '../../assets/react.png';
+import Icon from '../../Utils/Icon';
+import bootstrap from '../../../assets/bootstrap.png';
+import docker from '../../../assets/docker.png';
+import django from '../../../assets/django.png';
+import git from '../../../assets/git.png';
+import html from '../../../assets/html.png';
+import react from '../../../assets/react.png';
 
 const Tools = () => {
   const lenguajes = [

@@ -1,9 +1,9 @@
-import Layout from "./components/Layout";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Tools from "./components/Tools";
-import Experience from "./components/Experience";
-import Information from "./components/Information";
+import Layout from "./components/Composition/Layout";
+import About from "./components/Modules/About";
+import Projects from "./components/Modules/Projects";
+import Tools from "./components/Modules/Tools";
+import Experience from "./components/Modules/Experience";
+import Information from "./components/Modules/Information";
 
 const App = () => {
   return (

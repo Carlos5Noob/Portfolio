@@ -1,7 +1,7 @@
-import Image from "../Image";
-import foto from "../../assets/foto-perfil.png";
+import Image from "../../Utils/Image";
+import foto from "../../../assets/foto-perfil.png";
 import styles from "./About.module.css";
-import Button from "../Button";
+import Button from "../../Utils/Button";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";

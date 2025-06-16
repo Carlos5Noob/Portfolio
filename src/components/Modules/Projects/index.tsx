@@ -1,6 +1,6 @@
-import Card from "../Card";
-import critikon from "../../assets/critikon.png";
-import tierramedia from "../../assets/tierramedia.png";
+import Card from "../../Utils/Card";
+import critikon from "../../../assets/critikon.png";
+import tierramedia from "../../../assets/tierramedia.png";
 import styles from './Projects.module.css'
 
 const Projects = () => {

@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import List from "../List";
+import List from "../../Utils/List";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect, useState } from "react";
