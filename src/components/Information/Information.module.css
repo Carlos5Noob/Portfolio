@@ -23,3 +23,7 @@
 .container {
     margin-bottom: 150px;
 }
+
+.text > strong {
+    color: #8d86c8;
+}
