@@ -5,6 +5,7 @@ import Button from "../../Utils/Button";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useEffect } from "react";
+import Typewriter from "typewriter-effect";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -13,21 +14,47 @@ const About = () => {
   const linkContactame = "mailto:carlosjr5noob5@gmail.com";
 
   useEffect(() => {
-    const tl = gsap.timeline({ 
-      scrollTrigger: { scrub: 1 }
+    const tl = gsap.timeline({
+      scrollTrigger: { scrub: 1 },
     });
 
-    tl
-      .to("#About", { opacity: 0, scale: 0.5, duration: 0.1 });
+    tl.to("#About", { opacity: 0, scale: 0.5, duration: 0.1 });
   }, []);
 
   return (
     <div id="About" className={styles.main}>
-      <h1 className={`text-center ${styles.title}`}>Hey, soy Carlos5Noob</h1>
+      <div className={`text-center ${styles.title}`}>
+        <Typewriter
+          options={{
+            loop: true,
+          }}
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("Hey, Soy Carlos5Noob")
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("Desarrollador Full-Stack")
+              .pauseFor(500)
+              .deleteChars(10)
+              .typeString("Back-End")
+              .pauseFor(500)
+              .deleteChars(8)
+              .typeString("Front-End")
+              .pauseFor(1000)
+              .deleteAll()
+              .start();
+          }}
+        />
+      </div>
       <div
         className={`container d-flex align-items-center gap-4 mb-5 ${styles.container}`}
       >
-        <Image src={foto} width={300} height={300} className={`rounded-circle ${styles.imagen}`} />
+        <Image
+          src={foto}
+          width={300}
+          height={300}
+          className={`rounded-circle ${styles.imagen}`}
+        />
         <div className="d-flex flex-column">
           <p className="fs-3 text-white">
             Hola, me llamo Carlos Chacón Atienza y soy desarrollador Full-Stack.
