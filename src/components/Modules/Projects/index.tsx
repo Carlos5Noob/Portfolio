@@ -1,6 +1,7 @@
 import Card from "../../Utils/Card";
 import critikon from "../../../assets/critikon.png";
 import tierramedia from "../../../assets/tierramedia.png";
+import todo from '../../../assets/todo.png'
 import styles from './Projects.module.css'
 
 const Projects = () => {
@@ -11,16 +12,23 @@ const Projects = () => {
         <Card
           className={styles.card}
           src={critikon}
-          href="https://github.com/Carlos5Noob/Critikon-project.git"
+          href="https://github.com/Carlos5Noob/Critikon-project"
           title="Critikon"
           text="Aplicación web pensada para gamers, quienes pueden discutir entre diversos videojuegos. Desarrollado con Python + Django."
         />
         <Card
           className={styles.card}
           src={tierramedia}
-          href="https://github.com/Carlos5Noob/TierraMedia-Django.git"
+          href="https://github.com/Carlos5Noob/TierraMedia-Django"
           title="Tierra Media"
           text="Videojuego basado en las tierras intermedias del Señor de los Anillos. Desarrollado con Python + Django."
+        />
+        <Card
+          className={styles.card}
+          src={todo}
+          href="https://github.com/Carlos5Noob/to-do"
+          title="TO-DONOOB"
+          text="Aplicación web para la gestión de tareas. Desarrollado con React + Tailwind."
         />
       </div>
     </>
