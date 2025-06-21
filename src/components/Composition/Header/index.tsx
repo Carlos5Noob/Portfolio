@@ -12,7 +12,7 @@ const Header = () => {
   const items = [
     "Sobre mí",
     "Proyectos",
-    "Lenguajes y Herramientas",
+    "Skills",
     "Experiencia laboral",
   ];
 

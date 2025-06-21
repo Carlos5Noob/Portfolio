@@ -1,4 +1,4 @@
-import styles from './Tools.module.css'
+import styles from './Skills.module.css'
 import Icon from '../../Utils/Icon';
 import bootstrap from '../../../assets/bootstrap.png';
 import docker from '../../../assets/docker.png';
@@ -8,7 +8,7 @@ import html from '../../../assets/html.png';
 import react from '../../../assets/react.png';
 import tailwind from '../../../assets/tailwind.png'
 
-const Tools = () => {
+const Skills = () => {
   const lenguajes = [
     "Python + Django",
     "React + Next.js",
@@ -21,7 +21,7 @@ const Tools = () => {
 
   return (
     <>
-        <h1 id='Lenguajes y Herramientas' className={`text-center my-4 ${styles.title}`}>&lt; Lenguajes y Herramientas /&gt;</h1>
+        <h1 id='Skills' className={`text-center my-4 ${styles.title}`}>&lt; Skills /&gt;</h1>
         <div className="text-center text-light d-block">
           <p>{lenguajes[0]}<Icon src={django} width={40} height={50} /></p>
           <p>{lenguajes[1]}<Icon src={react} width={40} height={35} /></p>
@@ -35,4 +35,4 @@ const Tools = () => {
   );
 };
 
-export default Tools;
+export default Skills;

@@ -1,7 +1,7 @@
 import Layout from "./components/Composition/Layout";
 import About from "./components/Modules/About";
 import Projects from "./components/Modules/Projects";
-import Tools from "./components/Modules/Tools";
+import Skills from "./components/Modules/Skills";
 import Experience from "./components/Modules/Experience";
 import Information from "./components/Modules/Information";
 
@@ -12,7 +12,7 @@ const App = () => {
         <About />
         <Experience />
         <Projects />
-        <Tools />
+        <Skills />
         <Information />
       </Layout>
     </main>
