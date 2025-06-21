@@ -1,14 +1,17 @@
 import Card from "../../Utils/Card";
 import critikon from "../../../assets/critikon.png";
 import tierramedia from "../../../assets/tierramedia.png";
-import todo from '../../../assets/todo.png'
-import styles from './Projects.module.css'
+import todo from "../../../assets/todo.png";
+import calculadora from "../../../assets/calculadora.png";
+import styles from "./Projects.module.css";
 
 const Projects = () => {
   return (
     <>
-      <h1 id="Proyectos" className={`text-center my-4 mt-5 ${styles.title}`}>&lt; Mis Proyectos /&gt;</h1>
-      <div className="container d-flex justify-content-center gap-5 mb-5">
+      <h1 id="Proyectos" className={`text-center my-4 mt-5 ${styles.title}`}>
+        &lt; Mis Proyectos /&gt;
+      </h1>
+      <div className="container d-flex justify-content-center gap-5">
         <Card
           className={styles.card}
           src={critikon}
@@ -23,12 +26,21 @@ const Projects = () => {
           title="Tierra Media"
           text="Videojuego basado en las tierras intermedias del Señor de los Anillos. Desarrollado con Python + Django."
         />
+      </div>
+      <div className="container d-flex justify-content-center gap-5 mb-5">
         <Card
           className={styles.card}
           src={todo}
           href="https://github.com/Carlos5Noob/to-do"
           title="TO-DONOOB"
           text="Aplicación web para la gestión de tareas. Desarrollado con React + Tailwind."
+        />
+        <Card
+          className={styles.card}
+          src={calculadora}
+          href="https://github.com/Carlos5Noob/calculadora"
+          title="CALC-U-NOOB"
+          text="Aplicación web que simula una calculadora de iOS. Desarrollado con React + Tailwind."
         />
       </div>
     </>

@@ -15,7 +15,7 @@ const Card = (props: CardProps) => {
     
     return (
         <div className={`card ${styles.container} ${className}`}>
-            <Image src={src} className="card-img-top" alt={alt}/>
+            <Image src={src} className={`card-img-top ${styles.imagen}`} alt={alt}/>
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 <p className="card-text">{text}</p>

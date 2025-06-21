@@ -1,3 +1,7 @@
 .container {
-    width: 50rem;
+    width: 30rem;
+}
+
+.imagen {
+    height: 70%;
 }
