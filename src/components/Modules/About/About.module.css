@@ -37,6 +37,12 @@
     opacity: 0;
 }
 
+.button3 {
+    animation: jump 1.5s ease-in-out forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+}
+
 @keyframes fade {
     from { 
         transform: translateY(-500px); 

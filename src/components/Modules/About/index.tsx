@@ -12,6 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 const About = () => {
   const linkGithub = "https://github.com/Carlos5Noob";
   const linkContactame = "mailto:carlosjr5noob5@gmail.com";
+  const linkLinkedin = "https://www.linkedin.com/in/carlos-chac%C3%B3n-atienza-0463ab320/";
 
   useEffect(() => {
     const tl = gsap.timeline({
@@ -62,10 +63,13 @@ const About = () => {
             la tecnología y de la programación.
           </p>
           <div className="d-flex gap-4 justify-content-end">
-            <Button href={linkContactame} className={styles.button1}>
+            <Button href={linkLinkedin} className={styles.button1}>
+              LinkedIn
+            </Button>
+            <Button href={linkContactame} className={styles.button2}>
               Contáctame
             </Button>
-            <Button href={linkGithub} className={styles.button2}>
+            <Button href={linkGithub} className={styles.button3}>
               Visita mi GitHub
             </Button>
           </div>
