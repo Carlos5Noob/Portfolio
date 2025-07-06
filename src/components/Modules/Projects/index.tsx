@@ -3,6 +3,7 @@ import critikon from "../../../assets/critikon.png";
 import tierramedia from "../../../assets/tierramedia.png";
 import todo from "../../../assets/todo.png";
 import calculadora from "../../../assets/calculadora.png";
+import converter from '../../../assets/converter.png';
 import styles from "./Projects.module.css";
 import django from '../../../assets/django.png';
 import bootstrap from '../../../assets/bootstrap.png';
@@ -55,6 +56,18 @@ const Projects = () => {
           href="https://github.com/Carlos5Noob/calculadora"
           title="CALC-U-NOOB"
           text="Aplicación web que simula una calculadora de iOS."
+          icon1="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+          icon2="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"
+          icon3={tailwind}
+        />
+      </div>
+      <div className="container d-flex justify-content-center gap-5 mb-5">
+        <Card
+          className={styles.card}
+          src={converter}
+          href="https://github.com/Carlos5Noob/money-converter"
+          title="NOOB CONVERTER"
+          text="Aplicación web para la conversión de monedas."
           icon1="https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
           icon2="https://cdn-icons-png.flaticon.com/512/1126/1126012.png"
           icon3={tailwind}
