@@ -1,0 +1,53 @@
+.title {
+    font-weight: bold;
+    color: #00bbff;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.boton {
+    background-color: #1e1e2f;
+    border: 2px solid #2e2e42;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    color: #e0e0e0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.boton:hover {
+    background-color: #2a2a40;
+    transform: scale(1.01);
+}
+
+.respuesta {
+    background-color: #2f2f45;
+    color: #dcdcdc;
+    margin: 0.5rem auto;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    animation: slideDown 0.4s ease-out;
+    overflow: hidden;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

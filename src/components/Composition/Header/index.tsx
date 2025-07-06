@@ -10,10 +10,10 @@ const Header = () => {
   const [scroll, setScroll] = useState<boolean>(false);
 
   const items = [
-    "Sobre mí",
     "Proyectos",
     "Skills",
-    "Experiencia laboral",
+    "Sobre mí",
+    "FAQ",
   ];
 
   const handleScroll = () => {
