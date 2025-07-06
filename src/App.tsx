@@ -5,6 +5,7 @@ import Skills from "./components/Modules/Skills";
 // import Experience from "./components/Modules/Experience";
 import Information from "./components/Modules/Information";
 import FAQ from "./components/Modules/FAQ";
+import './App.css';
 
 const App = () => {
   return (

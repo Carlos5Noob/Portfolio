@@ -2,8 +2,20 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  width: 99.4vw;
   min-height: 100vh;
   gap: 5rem;
   background-image: radial-gradient(ellipse at 55% 75%, #090E1B, #111d3a, #080e1b);
+}
+
+
+@media (min-width: 1280px) {
+  .main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 99.4vw;
+    min-height: 100vh;
+    gap: 5rem;
+    background-image: radial-gradient(ellipse at 55% 75%, #090E1B, #111d3a, #080e1b);
+  }
 }
