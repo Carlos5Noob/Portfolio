@@ -8,6 +8,7 @@
     z-index: 0;
     overflow: hidden;
     white-space: nowrap;
+    color: white;
 }
 
 .button:hover {
