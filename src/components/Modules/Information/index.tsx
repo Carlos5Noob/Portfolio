@@ -1,6 +1,6 @@
 import Image from '../../Utils/Image';
 import styles from './Information.module.css';
-import avatar from '../../../assets/avatar.png';
+import avatar from '../../../assets/perfil-youtube.png';
 
 const Information = () => {
     return (
