@@ -5,6 +5,7 @@
   min-height: 100vh;
   gap: 5rem;
   background-image: radial-gradient(ellipse at 55% 75%, #090E1B, #111d3a, #080e1b);
+  overflow-x: hidden;
 }
 
 

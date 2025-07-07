@@ -10,3 +10,20 @@
 .card:hover {
     transform: scale(1.1);
 }
+
+.div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media (min-width: 780px) {
+    .div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3rem;
+    }
+}

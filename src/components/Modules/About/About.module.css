@@ -19,7 +19,6 @@
     color: skyblue;
     display: block;
     font-family: monospace;
-    white-space: nowrap;
     justify-self: center;
 }
 
@@ -64,5 +63,11 @@
     to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@media (min-width: 1080px) {
+    .title {
+        white-space: nowrap;
     }
 }

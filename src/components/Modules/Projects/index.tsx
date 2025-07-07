@@ -15,7 +15,7 @@ const Projects = () => {
       <h1 id="Proyectos" className={`text-center my-4 mt-5 ${styles.title}`}>
         &lt; Mis Proyectos /&gt;
       </h1>
-      <div className="container d-flex justify-content-center gap-5">
+      <div className={`container ${styles.div}`}>
         <Card
           className={styles.card}
           src={critikon}
@@ -39,7 +39,7 @@ const Projects = () => {
           icon4="https://cdn-icons-png.flaticon.com/512/5968/5968342.png"
         />
       </div>
-      <div className="container d-flex justify-content-center gap-5 mb-5">
+      <div className={`container ${styles.div}`}>
         <Card
           className={styles.card}
           src={todo}
@@ -61,7 +61,7 @@ const Projects = () => {
           icon3={tailwind}
         />
       </div>
-      <div className="container d-flex justify-content-center gap-5 mb-5">
+      <div className={`container ${styles.div}`}>
         <Card
           className={styles.card}
           src={converter}
